@@ -1,0 +1,43 @@
+.parentComponent {
+  width: 100%;
+  display: flex;
+  justify-items: baseline;
+
+  .centerComponent {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+  }
+  .imageFrame {
+    gap: 20px;
+    display: flex;
+  }
+
+  .imageInfo,
+  .buttonComponent {
+    width: 500px;
+    height: 45px;
+    display: flex;
+    background-color: #7fb323;
+  }
+
+
+  .imageContainer {
+    width: 500px;
+    height: 500px;
+  }
+
+  .imageInfo {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttonComponent {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

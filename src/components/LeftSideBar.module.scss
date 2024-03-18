@@ -1,0 +1,27 @@
+.header {
+    padding: 2px 15px;
+    width: 300px;
+    background-color: #7fb323;
+}
+
+.imageList {
+    padding: 10px;
+}
+
+.labelComponent {
+    width: 300px;
+    padding: 10px;
+}
+
+.instruction {
+    margin: 10px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
